@@ -8,7 +8,7 @@
 
 # syntax=docker/dockerfile:1
 
-FROM rockylinux:8 AS builder
+FROM rockylinux:9 AS builder
 ENV LANG C.UTF-8
 ENV LIBRARY_PATH /usr/local/lib64:/usr/local/lib:/lib64:/lib:/usr/lib64:/usr/lib
 ENV LD_LIBRARY_PATH $LIBRARY_PATH
